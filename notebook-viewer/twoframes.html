@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Assignment notebook viewer</title>
+    <link rel="stylesheet" type="text/css" href="twoframes.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  </head>
+
+  <body>
+    <main>
+% for side in ("left", "right"):
+      <header class="head-{{side}}" id="head-{{side}}">
+        <p>
+          <select name="file-{{side}}" id="file-{{side}}" placeholder="Select a file"></p>
+            <option value="">Select a file...</option>
+% for src in files:
+  % if len(files) > 1:
+            <optgroup label="{{src}}">
+  % end
+  % for file in files[src]:
+              <option value="{{file}}">{{file}}</option>
+  % end
+  % if len(files) > 1:
+            </optgroup>
+  % end
+% end
+          </select>
+          <button id="reload-file-{{side}}" class="btn-reload" type="button"><i class="fa-solid fa-arrows-rotate"></i></button>
+          <span class="filler"></span>
+          <button id="download-score-file-{{side}}" class="btn-download" type="button"><i class="fa-solid fa-download"></i> Download scores</button>
+          <button id="compare-score-file-{{side}}" class="btn-compare-scores" type="button"><i class="fa-solid fa-not-equal"></i> Compare scores</button>
+          <button id="load-score-file-{{side}}" class="btn-load-scores" type="button"><i class="fa-solid fa-upload"></i> Load scores</button>
+        </p>
+      </header>
+% end
+% for side in ("left", "right"):
+      <section class="col-{{side}}"><iframe src="about:blank" id="iframe-{{side}}"></iframe></section>
+% end
+    </main>
+    <script type="text/javascript" src="twoframes.js"></script>
+  </body>
+</html>

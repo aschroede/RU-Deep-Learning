@@ -7,6 +7,10 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+Assignment 11/data
+Assignment 3/FashionMNIST
+Assignment 2/FashionMNIST
+Assignment 2/fashion-mnist
 .Python
 build/
 develop-eggs/

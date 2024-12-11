@@ -1,0 +1,79 @@
+WARNING:
+  You are missing one or more scores.
+
+Score for Assignment 4:
+  You have 38 out of a maximum of 57 points.
+
+Names: 
+Group: 
+
+Score per question:
+  4.1 b: 1
+  4.1 c: 1
+  4.1 e: 1
+  4.1 f: 1
+  4.1 h: 1
+  4.1 i: 1
+  4.1 j: 1
+  4.1 k: 1
+  4.1 l: 1
+  4.2 a: 1
+  4.2 b: 1
+  4.2 c: 1
+  4.2 d: 1
+  4.2 e: 1
+  4.2 f: 1
+  4.2 g: 0
+  # max for 4.2 g: 1
+  4.2 h: 1
+  4.3 a: 1
+  4.3 b: 1
+  4.3 c: 1
+  4.3 d: 1
+  4.3 e: 1
+  4.3 g: 1
+  4.3 h: 1
+  4.4 d: 2
+  4.5 b: 1
+  4.5 d: 1
+  4.5 e: 1
+  # max for 4.5 e: 2
+  4.6 a: 2
+  4.6 b: 1
+  4.6 c: 1
+  4.6 d: 0
+  # max for 4.6 d: 1
+  4.6 e: 1
+  4.6 g: 2
+  4.7 a: 1
+  4.7 b: 1
+  4.7 c: 1
+  4.7 d: 
+  4.7 e: 
+  4.8 a: 
+  4.8 b: 
+  4.8 c: 
+  4.8 d: 
+  4.8 e: 
+  4.8 f: 
+  4.8 g: 
+  4.9 a: 
+  4.9 b: 
+  4.9 c: 
+  4.9 d: 
+
+Comments:
+  Question 4.2 c: |
+    My I use dilation of 3 and padding same instead of dilation 2 and padding 2, but mine still meets the requirement of a 3x3 convolution with dilation that preserves the input size so awarding full points.
+
+  Question 4.2 d: |
+    Awarding full marks because for my dilation and padding, the receptive field is 7x7 which can be calculated from the formula I provide.
+
+  Question 4.2 g: |
+    Incorrect answer. Stride does not change receptive field, even though it seems that pooling does?
+
+  Question 4.3 c: |
+    Different implementation but meets the requirements.
+
+  Question 4.3 g: |
+    Slightly different numbers for with pooling and strided convolutions but based on correct implementation. Implicit in answer is that 9x9 has the most parameters and with dilation has the lowest number.

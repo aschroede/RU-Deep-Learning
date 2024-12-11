@@ -1,0 +1,86 @@
+Score for Assignment 6:
+  You have 40 out of a maximum of 47 points.
+
+Names: Andrew Schroeder and Fynn Gerding 
+Group: 17
+
+Score per question:
+  6.1 a: 0.5
+  # max for 6.1 a: 1
+  6.1 b: 1
+  6.1 c: 1
+  6.1 d: 1
+  6.1 e: 1
+  6.2 a: 1
+  6.2 b: 1
+  6.2 c: 1
+  6.2 d: 1
+  6.2 e: 0.5
+  # max for 6.2 e: 1
+  6.2 f: 1
+  6.2 g: 1
+  6.2 h: 1
+  6.2 j: 1
+  6.2 k: 0
+  # max for 6.2 k: 1
+  6.3 a: 1
+  6.3 b: 0
+  # max for 6.3 b: 1
+  6.3 c: 1
+  6.3 d: 5
+  6.4 a: 1
+  6.4 b: 3.5
+  # max for 6.4 b: 4
+  6.4 d: 1
+  6.4 e: 1
+  6.4 f: 0
+  # max for 6.4 f: 1
+  6.4 g: 0
+  # max for 6.4 g: 1
+  6.4 h: 1
+  6.5 b: 1
+  6.5 c: 1
+  6.5 e: 0.5
+  # max for 6.5 e: 1
+  6.5 f: 1
+  6.5 g: 0
+  # max for 6.5 g: 1
+  6.6 a: 1
+  6.6 b: 2
+  6.6 c: 1
+  6.6 d: 1
+  6.7 a: 1
+  6.7 b: 1
+  6.7 c: 1
+  6.7 d: 1
+
+Comments:
+  Question 6.1 a: |
+    We included = when we shouldn't have.
+
+  Question 6.2 e: |
+    -0.5 for not mentioning x, y, and y_prev explicitly.
+
+  Question 6.2 k: |
+    We didn't mention wasteful computation or varying output size.
+
+  Question 6.3 b: |
+    We included nhead as an argument that changes parameter counts when it does not.
+
+  Question 6.4 b: |
+    Minus half for not including ignore_index in the loss function.
+
+  Question 6.4 f: |
+    Didn't look at logits to see that outputs were identical, no marks.
+
+  Question 6.4 g: |
+    Made a mistake by not checking validation accuracy close enough to see it was computing per token accuracy
+
+  Question 6.5 e: |
+    Half point for mentioning positional encoding.
+
+  Question 6.5 g: |
+    We didn't mention training longer or building a more complex network.
+
+  Question 6.7 d: |
+    mark for mentioning a causal attention mask.

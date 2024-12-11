@@ -1,0 +1,53 @@
+WARNING:
+  You are missing one or more scores.
+
+Score for Assignment 2:
+  You have 21 out of a maximum of 42 points.
+
+Names: 
+Group: 
+
+Score per question:
+  2.2 a: 1
+  2.2 b: 1
+  2.3 a: 1
+  2.3 b: 2
+  2.3 c: 3
+  2.3 d: 4
+  2.3 e: 1
+  2.3 f: 1
+  2.5 b: 1
+  # max for 2.5 b: 2
+  2.5 c: 1
+  2.5 d: 1
+  2.5 e: 1
+  # max for 2.5 e: 2
+  2.5 g: 1
+  2.5 i: 1
+  2.5 j: 1
+  2.5 k: 
+  2.6 a: 
+  2.6 c: 
+  2.6 d: 
+  2.6 e: 
+  2.6 f: 
+  2.6 g: 
+  2.7 b: 
+  2.7 c: 
+  2.8 a: 
+  2.8 b: 
+  2.8 c: 
+  2.8 d: 
+  2.8 e: 
+  2.9 a: 
+  2.9 b: 
+
+Comments:
+  Question 2.3 e: |
+    The answer says that we have not converged after 10 epochs. However we changed the epochs from 10 to 100 and so for our training run it is correct to say that the training has converged.
+
+  Question 2.5 b: |
+    Lost a mark by classifying SGD with LR=0.01 as having converged to a good result.
+
+  Question 2.5 e: |
+    Didn't quite talk about validation which is what was expected in the answer for final performance.

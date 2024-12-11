@@ -1,0 +1,37 @@
+Score for Assignment 8:
+  You have 19 out of a maximum of 21 points.
+
+Names: Andrew Schroeder and Fynn Gerding
+Group: 17
+
+Score per question:
+  8.1 a: 1
+  8.2 a: 2
+  8.2 b: 2
+  8.2 c: 1
+  8.2 d: 1
+  8.3 a: 1
+  8.3 b: 1
+  8.3 c: 0.5
+  # max for 8.3 c: 1
+  8.4 a: 1
+  8.4 b: 1
+  8.4 d: 0.5
+  # max for 8.4 d: 1
+  8.4 e: 1
+  8.4 f: 1
+  8.4 g: 3
+  8.5 a: 0
+  # max for 8.5 a: 1
+  8.5 b: 1
+  8.5 c: 1
+
+Comments:
+  Question 8.3 c: |
+    We only mention loss, not accuracy curves and answer wants both
+
+  Question 8.4 d: |
+    Only mentioned loss, not accuracy
+
+  Question 8.5 a: |
+    I said it was possible when it wasn't
